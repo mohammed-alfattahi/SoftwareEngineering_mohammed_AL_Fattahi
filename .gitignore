@@ -1,0 +1,28 @@
+
+gitignore
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django & Database
+db.sqlite3
+*.log
+
+# Migrations
+*/migrations/
+!*/migrations/__init__.py
+
+# Virtual environments
+django_env/
+venv/
+
+# IDEs & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Static & media
+/static/
+media
